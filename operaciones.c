@@ -23,3 +23,9 @@ int multiplicar(const int a, const int b) {
 int esPar(const int n) {
     return (n % 2) == 0;
 }
+
+/* ── noEsPar ────────────────────────────────────────────────────────────────── */
+
+int noEsPar(const int n) {
+    return (n % 2) != 0;
+}
